@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index.HTML sez: webDeveloper UK #237 Electron Tute</title>
+    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <style type="text/css">
+	.editor, .preview {
+		position: absolute !important; 
+		top: 58px; 
+		right: 0; 
+		bottom: 0; 
+		left: 0; 
+		z-index:5;
+	}
+	.preview {
+		display:none; 
+		overflow:auto; 
+		z-index:10; 
+		background-color: white;
+	}
+
+	</style>
+</head>
+
+<body>
+<div role="tabpanel">
+ <ul class="nav nav-tabs" id="fileTabs"></ul>
+ <div class="tab-content" id="filePanes"></div>
+</div>
+
+<script>
+ window.jQuery = window.$ = require("../bower_components/jquery/dist/jquery.min.js");
+</script>
+<!--script src="../node_modules/jquery/dist/jquery.min.js"></script-->
+<script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../node_modules/marked/marked.min.js"></script>
+<script src="../node_modules/ace-builds/src-min/ace.js" charset="utf-8"></script>
+<script src="./app.js"></script>
+</body>
+</html>
