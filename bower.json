@@ -1,0 +1,26 @@
+{
+  "name": "wd-markdown",
+  "description": "hep me grow to a real lectron app",
+  "main": "main.js",
+  "authors": [
+    "nobodaddy webdesigner 237"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "ace",
+    "markdown",
+    "electron"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
