@@ -8,7 +8,7 @@ Bootstrap and jQuery are installed via bower until I can figure how to bring it 
 
 ## Using
 
-You can build it yourself (see below).  Default app launches with Chromium DevTools open. Toggle between modes via the "View" menu.
+Default app launches with Chromium DevTools open. Toggle between modes via the "View" menu.
 
 ## Building
 
