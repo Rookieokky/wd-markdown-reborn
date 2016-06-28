@@ -1,5 +1,5 @@
 # wd-markdown-reborn
-Electron tutorial salvaged from a WebDesigner magazine article. This app is a multi-tabbed markdown editor that uses marked and Ace editor. Use this app to see what you can do with Electron and as a starting point to expand the editor features.
+Electron tutorial salvaged from a WebDesigner magazine article. This app is a multi-tabbed markdown editor that uses Ace editor in edit mode and Marked in view mode. Use this app to see what you can do with Electron and as a starting point to expand the editor features.
 
 Bootstrap and jQuery are installed via bower until I can figure how to bring it all under npm.
  
