@@ -12,12 +12,14 @@ You can build it yourself (see below).  Default app launches with Chromium DevTo
 
 ## Building
 
-You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app.
+You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app. Also install bower with node's package manager, npm.
 
 ```bash
+$ npm install bower ( if not done yet )
 $ git clone https://github.com/chilismaug/wd-markdown-reborn.git
 $ cd wd-markdown-reborn
 $ npm install
+$ bower install
 $ npm start
 ```
 
