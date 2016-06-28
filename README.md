@@ -1,5 +1,5 @@
 # wd-markdown-reborn
-This is an Electron tutorial app salvaged from a WebDesigner magazine article. The article's download did not supply a working app, but did supply a 95% gist of some apparently interim version of the code. 
+This is an Electron tutorial app salvaged from a WebDesigner magazine article. The article's download did not supply a working app, but did supply a 95% gist of some apparently interim version of the code. Some screenshots provided motivation and clues on how to glue it together.
 
 This app is a multi-tabbed markdown editor that uses Ace editor in edit mode and Marked in view mode. Use this app to see what you can do with Electron and as a starting point to expand the editor features.
 
