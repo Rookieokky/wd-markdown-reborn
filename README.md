@@ -4,9 +4,7 @@ This is an Electron tutorial app salvaged from a WebDesigner magazine article. T
 This app is a multi-tabbed markdown editor that uses Ace editor in edit mode and Marked in view mode. Use this app to see what you can do with Electron and as a starting point to expand the editor features.
 
 Bootstrap and jQuery are installed via bower until I can figure how to bring it all under npm. When I installed from npm, jQuery no works.
- 
-Follow [@ElectronJS](https://twitter.com/electronjs) on Twitter for important
-announcements. Visit the [electron website](http://electron.atom.io).
+
 
 ## Using
 
@@ -17,8 +15,8 @@ You can build it yourself (see below).
 You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app.
 
 ```bash
-$ git clone https://github.com/electron/electron-api-demos
-$ cd electron-api-demos
+$ git clone https://github.com/chilismaug/wd-markdown-reborn.git
+$ cd wd-markdown-reborn
 $ npm install
 $ npm start
 ```
@@ -29,3 +27,6 @@ For easier developing you can launch the app in fullscreen with DevTools open:
 $ npm run dev
 ```
  
+
+Follow [@ElectronJS](https://twitter.com/electronjs) on Twitter for important
+announcements. Visit the [electron website](http://electron.atom.io).
