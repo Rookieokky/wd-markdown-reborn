@@ -1,3 +1,5 @@
+const fs = require('fs');
+const path = require('path');
 const electron = require('electron');
 // Module to control application life.
 const {app} = electron;
@@ -5,8 +7,6 @@ const {app} = electron;
 const {BrowserWindow} = electron;
 const {dialog} = electron;
 const {Menu} = electron;
-const fs = require('fs');
-const path = require('path');
 const {ipcMain}  = electron;
 
 
