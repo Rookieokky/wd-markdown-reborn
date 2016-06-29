@@ -1,10 +1,11 @@
 const electron = require('electron');
 const {ipcRenderer} = electron;
+const tabs = $('#fileTabs');
+const panes = $('#filePanes');
 
 var files = {};
 var rollingId = 0;
-var tabs = $('#fileTabs');
-var panes = $('#filePanes');
+
 var ActiveTab = function() {
   return id = tabs.find('.active a').attr('href').slice(1);
 };
