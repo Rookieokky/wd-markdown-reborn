@@ -12,7 +12,7 @@ Default app launches with Chromium DevTools open. Toggle between modes via the "
 
 ## Building
 
-You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app. Also Electron and bower.
+You'll need [Node.js](https://nodejs.org) installed on your computer in order to build this app. Also you can install electron prebuilt as in "npm install -g electron-prebuilt".
 
 ```bash
 $ npm install bower ( if not done yet )
