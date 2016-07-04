@@ -59,14 +59,13 @@ var OpenFile = function() {
   var fPath = paths[0];
   var fName = path.basename(fPath);
   var fData = fs.readFileSync(fPath, 'utf8'); 
- 
-  // debuggy window pop
+   /* debuggy popup
 	   dialog.showMessageBox(win, {
 	   title: 'index.js main process: ipc related arg values: ',
 	   message:  "fPath: " + fPath + "\n fName: " + fName +	"\n fData: \n" +  fData ,
 	   buttons: ["OK"]  
 		 });
-		 
+	*/	 
   win.webContents.send('file-open', fPath, fName, fData);
  });
 };
@@ -76,17 +75,22 @@ var SendEvent = function(name) {
 };
 
 var template = [
- {label: 'File', submenu: [
-  {label: 'New', click: SendEvent('file-new')},
-  {label: 'Open', click: OpenFile},
-  {label: 'Save', click: SendEvent('file-save')},
-  {label: 'Save As', click: SendEvent('file-save-as')},
-  {label: 'Close', click: SendEvent('file-close')},
-  {type: 'separator'},
-  {label: 'Quit', click: function() {app.quit();}}
- ]}, {label: 'View', submenu: [
-  {label: 'HTML/Markdown', click: SendEvent('view-toggle')}
- ]}
+	{label: 'File', 
+	 role: 'window',
+	 submenu: [
+		  {label: 'New', click: SendEvent('file-new')},
+		  {label: 'Open', click: OpenFile},
+		  {label: 'Save', click: SendEvent('file-save')},
+		  {label: 'Save As', click: SendEvent('file-save-as')},
+		  {label: 'Close', click: SendEvent('file-close')},
+		  {type: 'separator'},
+		  {label: 'Quit', click: function() {app.quit();}}
+	 ]}, 
+	{label: 'View', 
+	 role: 'window',
+	 submenu: [
+	  {label: 'HTML/Markdown', click: SendEvent('view-toggle')}	 
+	 ]}
 ];
 Menu.setApplicationMenu(Menu.buildFromTemplate(template));
 
